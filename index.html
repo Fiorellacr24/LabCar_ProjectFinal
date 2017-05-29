@@ -106,6 +106,43 @@
     </div>
 </section>
 <!---CONDUCE--->
+<!---TARIFA--->
+<section class="sect-tarifa">
+    <div class="cont-tarifa">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-6 padding-100 font-o hidden-xs">
+                    <h2 class="txt-white bold font-r">Tarifas</h2>
+                    <p class="txt-white font-o txt-size">Consulta las tarifas LabCar aquí</p>  
+                    <form class="form-inline txt-white">
+                        <div class="form-group col-lg-12">
+                            <i class="glyphicon glyphicon-record"></i>
+                            <input type="text" name="partida" id="punto-partida" class="form-control" value="" placeholder="Ingresa tu punto de partida">
+                        </div>
+                    </form>
+                    <form class="form-inline padding-50 txt-white">
+                        <div class="form-group col-lg-12">
+                            <i class="glyphicon glyphicon-send"></i>
+                            <input type="search" name="destino" id="punto-destino" class="form-control" value="" placeholder="Ingresa tu destino">
+                        </div>
+                    </form>
+                    <div class="txt-center col-md-8">
+                        <button id="trazar-ruta" type="reset" class="btn btn-gray bold">¡Trazar ruta!</button>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="col-md-6 cont-map">
+                    <div id="map">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---TARIFA--->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLVq_ntr6US-imTt-jH_TLJK-mAzParlk&callback=initMap" async defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/app.js"></script>
