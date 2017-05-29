@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
-
 /*NAVBAR*/
 nav{
     font-family: 'Open Sans', sans-serif;
@@ -17,7 +12,7 @@ nav{
     margin-left: 15px;
 }
 .navbar-default .navbar-brand{
-    color: #F7B617;
+    color: #f7b617;
     font-weight: 600;
 }
 .navbar-default .navbar-brand i{
@@ -105,4 +100,58 @@ header{
         display: block;
         margin-top: 30px;
     }
+}
+/***INFORMACION***/
+.txt-white{
+    color: white;
+}
+.font-r{
+    font-family: 'Raleway', sans-serif;
+}
+.font-o{
+    font-family: 'Open Sans', sans-serif;
+}
+#sect-information{
+    background-color: #f7b617;
+    height: 219vh;
+}
+.txt-information{
+    font-size: 2rem;
+}
+.cont-information{
+    padding: 20px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.cont-information .align-img{
+    margin-left: 40px;
+}
+.information{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+@media (max-width:760px){
+    .align-img{
+        width: 300px;
+        margin-left: 0 !important;
+    }
+    .cont-information > .container > .row{
+        margin-left: -42px;
+    }
+    .cont-information{
+        border-left: 2px solid #fff;
+    }
+    #sect-information{
+        height: 95vh;
+    }
+    .txt-mobile{
+        padding: 30px 0 30px 0;
+        font-size: 1.8rem;
+    }
+    .txt-center{
+        text-align: center;
+    }
+    .information {
+        padding-top: 60px;
 }
