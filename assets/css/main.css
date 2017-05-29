@@ -9,6 +9,9 @@ font-family: 'Raleway', sans-serif;
 */
 
 /*NAVBAR*/
+nav{
+    font-family: 'Open Sans', sans-serif;
+}
 .navbar-toggle{
     float: left;
     margin-left: 15px;
@@ -24,12 +27,17 @@ font-family: 'Raleway', sans-serif;
 .navbar-nav>li>a {
     padding-top: 35px;
 }
-.txt-center{
-    display: flex;
-    justify-content: center;
-}
 .navbar{
     margin-bottom: 0;
+}
+.navbar-header .size-logo img{
+    padding: 20px;
+}
+@media (max-width:760px){
+    .navbar-header .size-logo img{
+        width: 100px;
+        margin-left: 60px;
+    }
 }
 /**HERO**/
 header{
