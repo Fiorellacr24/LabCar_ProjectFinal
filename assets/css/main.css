@@ -113,7 +113,8 @@ header{
 }
 #sect-information{
     background-color: #f7b617;
-    height: 219vh;
+    height: 600px;
+    overflow-y: hidden;
 }
 .txt-information{
     font-size: 2rem;
@@ -154,4 +155,32 @@ header{
     }
     .information {
         padding-top: 60px;
+    }
+}
+/****CONDUCE****/
+.drive{
+    background-image: url(../img/conduce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 400px;
+    position: relative;
+}
+.drive-info{
+    width: 420px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.31);
+    color: #fff;
+    float: right;
+    overflow-y: none;
+}
+.txt-drive{
+    padding: 30px;
+}
+.btn-warning{
+    background-color: #f7b617;
+}
+@media (max-width:760px){
+    .drive-info {
+        width: auto;
 }
