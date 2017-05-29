@@ -1,8 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
 
+/*NAVBAR*/
 .navbar-toggle{
     float: left;
     margin-left: 15px;
@@ -21,4 +27,74 @@
 .txt-center{
     display: flex;
     justify-content: center;
+}
+.navbar{
+    margin-bottom: 0;
+}
+/**HERO**/
+header{
+    font-family: 'Raleway', sans-serif !important;
+}
+.bold{
+    font-weight: 700;
+}
+.d-flex{
+    display: flex;
+}
+.inline-block{
+    display: inline-block;
+}
+.container-hero{
+    background-image: url(../img/taxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 150px 0;
+}
+.hero-txt{
+    width: 500px;
+    background-color: #f7b617;
+    padding: 35px;
+    color: #fff;
+}
+.hero-txt h2{
+    margin: 0;
+}
+.hero-txt > div {
+    margin-top: 30px;
+}
+.hero-txt .size-logo img{
+    width: 80px;
+    margin-left: 10px;
+}
+.hero-txt .size-txt{
+    font-size: 1.8rem;
+}
+.hero-txt input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 130px;
+}
+.hero-txt .form div{
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.hero-txt .btn-default{
+    border: none;
+}
+@media (max-width:760px){
+    .hero-txt > div{
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .hero-txt button{
+        display: block;
+        margin-top: 30px;
+    }
 }
