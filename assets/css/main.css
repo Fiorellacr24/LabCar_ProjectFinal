@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggle{
+    float: left;
+    margin-left: 15px;
+}
+.navbar-default .navbar-brand{
+    color: #F7B617;
+    font-weight: 600;
+}
+.navbar-default .navbar-brand i{
+    color: gray;
+    font-weight: 600;
+}
+.navbar-nav>li>a {
+    padding-top: 35px;
+}
+.txt-center{
+    display: flex;
+    justify-content: center;
+}
